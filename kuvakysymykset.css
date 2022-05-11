@@ -1,0 +1,97 @@
+/*content style*/
+#content {
+    font-family:sans-serif;
+}
+/* main navi style */
+[class*="container"] {
+    background-color: rgb(231, 241, 149);
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* main header style */
+header{
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(206, 231, 173);
+    padding: 10px;
+    align-items: center;
+    margin: 1px;
+} 
+/* page header style */
+article { 
+    display: flex;
+    height: 150px;
+    background-color: rgb(241,225,166);
+    padding: 10px;
+    border: black 3px solid; 
+    border-radius: 5px;    
+}
+/* pictures style */
+.kuva{
+    height: 300px;
+    width: 250px;
+    border: 2px solid rgb(62, 124, 206);
+    margin: 5px;
+    float: left;
+}
+/* question blocks'style */
+#abraham, #amelia, #ludvig, #marie, #nelson, #prize {
+    display: none;
+    height: 350px;
+    margin: 1px;
+    padding: 10px;
+    border: 3px black solid;
+    background-color: rgb(231, 241, 149);
+    border-radius: 5px;
+    align-items: center;
+} 
+/* feedbacks after every question, text slots' style */
+.feedback {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+/* progress-bar label's style */
+.progress{ 
+    display: none;
+    font-weight: bold;
+    background-color: rgb(19, 133, 141);
+    margin: 10px;
+}
+/*several buttons' styles*/
+#aloitusnappi, #seuraava1, #seuraava2, #seuraava3, 
+#seuraava4, #seuraava5, .button, #uudestaan, #tulos {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(247, 202, 247);
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+/*unique button styles*/
+#aloitusnappi{
+    margin-left: 30px;
+    padding: 2px;
+}
+/*prize block styles*/
+#prize {
+    display: none;
+}
+/*final feedback styles*/
+#feedbackEnd{
+    font-size: 30px;
+    text-align:center;
+    text-transform: uppercase;
+    color: green;
+    background-color: rgb(231, 241, 149);
+}
+/*main footer styles*/
+footer{
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(206, 231, 173);
+    padding: 10px;
+    margin: 1px;
+}
