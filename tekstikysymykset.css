@@ -19,7 +19,8 @@ article{
 footer{
     border: 3px solid black;
     border-radius: 5px;
-    background-color: rgb(122, 185, 110);
+    background-color: rgb(113, 167, 42);
+    background-image: linear-gradient(rgb(113, 167, 42), rgb(241,225,166));
     padding: 10px;
     margin: 1px;
 }

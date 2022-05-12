@@ -1,13 +1,6 @@
-h1 {
-    font-weight: bold;
-    background-color: rgb(115, 199, 199);
-}
-
-
-
-
 [class*="container"] {
-    background-color: rgb(195,229,174);
+    background-color: rgb(184, 229, 155);
+    background-image: linear-gradient (rgb(184, 229, 155), rgb(218, 230, 211));
     border: 3px solid black;
     border-radius: 5px;
     margin: 1px;
@@ -28,6 +21,7 @@ article{
     border: 3px solid black;
     border-radius: 10px;
     background-color: rgb(241,225,166);
+    background-image: linear-gradient(rgb(241,225,166), rgb(113, 167, 42));
     padding: 10px;
     margin: 1px;
 }
@@ -35,7 +29,8 @@ article{
 footer{
     border: 3px solid black;
     border-radius: 5px;
-    background-color: rgb(122, 185, 110);
+    background-color: rgb(113, 167, 42);
+    background-image: linear-gradient(rgb(113, 167, 42), rgb(241,225,166));
     padding: 10px;
     margin: 1px;
 }
@@ -46,11 +41,17 @@ footer{
     height: 200px;
     width: 200px;
 }
+#kuvakysymyksetKuvake:hover {
+    border-color: rgb(3, 54, 119);
+}
 #tekstikysymyksetKuvake{
     grid-column: 3/4;
     border: 10px solid rgb(240, 140, 0);
     height: 200px;
     width: 200px;
+}
+#tekstikysymyksetKuvake:hover {
+    border-color: rgb(124, 73, 2);
 }
 #paikatKuvake {
     background-size: cover;
@@ -58,5 +59,12 @@ footer{
     border: 10px solid rgb(19, 133, 141);
     height: 200px;
     width: 200px;
-
+}
+#paikatKuvake:hover {
+    border-color: rgb(4, 56, 59);
+}
+/* change/hide some items in the smallest display */
+@media screen and (max-width: 576px){
+    footer{display:none;     
+    }    
 }

@@ -2,7 +2,7 @@
 const OIKEA1 = "Oikea vastaus, hyvä! Ranskan kuningas Ludvig XIV muistetaan myös nimellä Aurinkokuningas.";
 const OIKEA2 = "Oikea vastaus, hyvä! Marie Curie oli Nobel-palkittu fyysikko.";
 const OIKEA3 = "Oikea vastaus, hyvä! Abraham Lincoln oli Yhdysvaltain tunnetuimpia presidenttejä.";
-const OIKEA4 = "Oikea vastaus, hyvä! Earhart oli ilmailun uranuurtaja, joka teki useita pitkiä lentoja ensimmisenä maailmassa. ";
+const OIKEA4 = "Oikea vastaus, hyvä! Earhart oli ilmailun uranuurtaja, joka teki useita pitkiä lentoja ensimmäisenä maailmassa. ";
 const OIKEA5 = "Oikea vastaus, hyvä! Mandela oli Nobel-palkittu eteläafrikkalainen poliitikko ja presidentti. ";
 const VÄÄRÄ = "Väärä vastaus, harmi! Kokeile uudelleen.";
 
