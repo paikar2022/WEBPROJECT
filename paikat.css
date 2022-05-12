@@ -8,7 +8,9 @@ header{
     margin: 1px;
 }
 
-h1{color: brown;}
+h1{
+    color: brown;
+}
 
 body {
     background-color: rgb(218, 230, 211);
