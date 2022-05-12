@@ -1,6 +1,7 @@
 /*content style*/
 #content {
     font-family:sans-serif;
+    background-color:rgb(206, 231, 173);
 }
 /* main navi style */
 [class*="container"] {

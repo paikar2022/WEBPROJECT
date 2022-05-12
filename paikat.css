@@ -1,5 +1,57 @@
-body{
-    background-color: rgb(184, 229, 155);
-    background-image: linear-gradient (rgb(184, 229, 155), rgb(218, 230, 211));
-    color: white;
+header{
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(206, 231, 173);
+    background-image: linear-gradient(rgb(206, 231, 173), rgb(241,225,166));
+    padding: 10px;
+    align-items: center;
+    margin: 1px;
 }
+
+h1{color: brown;}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(218, 230, 211);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main {  
+    border-top: 1px solid pink;
+}
+footer {
+    clear: both;
+    border-top: 1px solid pink;
+    padding-top: 1rem;
+}
+footer span {
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: pink;
+}
+/* .left {
+    float: left;
+    width: 20%;
+}
+.left ul {
+    list-style: none; /* Remove default bullets */
+  /* }
+  
+.left ul li::before {
+    content: "\2022";
+    color: pink;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.right {
+    float: left;
+    width: 80%;
+    padding: 1rem;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color:  #000;
+} */ 
+

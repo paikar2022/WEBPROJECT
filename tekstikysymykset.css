@@ -1,4 +1,6 @@
-
+body {
+    background-color: rgb(218, 230, 211);
+}
 header{
     border: 3px solid black;
     border-radius: 5px;
