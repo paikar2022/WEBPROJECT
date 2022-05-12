@@ -1,4 +1,4 @@
-// Koodin pohjassa hyödynnetty henkilön Saku Penttilä TIK21SP kansallisvisaa, löytyi GitHubista
+// Koodin pohjassa hyödynnetty henkiön M.Rekinen osuutta TIK22KM/Ryhmä 16 projektityö 2022.
 
 let questionsRight = 0
 //answers
@@ -20,16 +20,16 @@ let image2 = document.getElementById("kysymys2")
 let image3 = document.getElementById("kysymys3")
 let image4 = document.getElementById("kysymys4")
 let image5 = document.getElementById("kysymys5")
-//tarkistus funktiot
+//check -functions
 function question1() {
-	//jos kysymyksiin ei ole vielä vastattu
+	//if not answered yet
 	document.querySelector("#quesright").className="visible"
 	document.querySelector("#progressbar").className="visible"
-	//jos oikea radiobutton on valittu
+	//if the right radiobutton was checked
 	if (correctAnswer1.checked == true) {
-		//kasvata "kysymyksiä oikein" yhdellä
+		//increase the 'right answers' with one
 		questionsRight++
-		//näyttää "Oikein!"
+		//showing "Oikein!"
 		result.innerHTML= right
 		//antaa kuvan ja piilottaa kysymyksen
 		document.getElementById("question1").className="hidden"

@@ -13,6 +13,7 @@
 }
 /* main header style */
 header{
+    display: flex;
     border: 3px solid black;
     border-radius: 5px;
     background-color: rgb(206, 231, 173);
@@ -25,9 +26,10 @@ article {
     display: flex;
     height: 150px;
     background-color: rgb(241,225,166);
+    background-image: linear-gradient(rgb(241,225,166), rgb(113, 167, 42));
     padding: 10px;
     border: black 3px solid; 
-    border-radius: 5px;    
+    border-radius: 5px;     
 }
 /* pictures style */
 .kuva{
@@ -45,6 +47,7 @@ article {
     padding: 10px;
     border: 3px black solid;
     background-color: rgb(231, 241, 149);
+    background-image: linear-gradient(rgb(231, 241, 149), rgb(206, 231, 173));
     border-radius: 5px;
     align-items: center;
 } 
@@ -57,7 +60,7 @@ article {
 .progress{ 
     display: none;
     font-weight: bold;
-    background-color: rgb(19, 133, 141);
+    background-color: rgb(247, 202, 247);
     margin: 10px;
 }
 /*several buttons' styles*/
@@ -66,6 +69,7 @@ article {
     height: 50px;
     width: 100px;
     background-color: rgb(247, 202, 247);
+    background-image: linear-gradient(rgb(248, 110, 248), rgb(247, 202, 247));
     border-radius: 5px;
     font-weight: bolder;
     margin-top: 5px;
@@ -89,9 +93,20 @@ article {
 }
 /*main footer styles*/
 footer{
+    display: flex;
     border: 3px solid black;
     border-radius: 5px;
-    background-color: rgb(206, 231, 173);
+    background-color: rgb(113, 167, 42);
+    background-image: linear-gradient(rgb(113, 167, 42), rgb(241,225,166));
     padding: 10px;
     margin: 1px;
+}
+/* do not show header and footer in the smallest display */
+@media screen and (max-width: 576px){
+    header{
+        display: none;
+    }
+    footer {
+        display: none;
+    }
 }
