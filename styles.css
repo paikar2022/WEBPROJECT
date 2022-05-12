@@ -1,4 +1,4 @@
-[class="container"] {
+/* [class="container"] {
     background-color: rgb(184, 229, 155);
     background-image: linear-gradient (rgb(184, 229, 155), rgb(218, 230, 211));
     border: 3px solid black;
@@ -6,7 +6,7 @@
     margin: 1px;
     margin-top: 0px;
     margin-bottom: 0px;
-}
+} */
 body {
     background-color: rgb(218, 230, 211);
 }
@@ -15,12 +15,16 @@ header{
     border: 3px solid black;
     border-radius: 5px;
     background-color: rgb(206, 231, 173);
-    background-image: linear-gradient (rgb(206, 231, 173), rgb(184, 229, 155), rgb(218, 230, 211));
+    background-image: linear-gradient (rgb(134, 209, 36), rgb(184, 229, 155), rgb(119, 236, 51));
     padding: 10px;
     align-items: center;
-    margin: 1px;
+    margin: 1px; 
 }
-
+#historiikki{
+    font-family: algerian;
+    font-size: 100px;
+    text-align: center;
+}
 article{
     border: 3px solid black;
     border-radius: 10px;

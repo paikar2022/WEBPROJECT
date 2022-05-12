@@ -10,12 +10,16 @@ header{
     margin: 1px;
 }
 
-article{
+/* article{
     border: 3px solid black;
     border-radius: 10px;
     background-color: rgb(62, 124, 206);
     padding: 10px;
     margin: 1px;
+} */
+#question1, #question2, #question3, #question4, #question5{
+    background-color: rgb(206, 231, 173);
+    background-image: linear-gradient(rgb(206, 231, 173),rgb(175, 218, 117));
 }
 
 footer{

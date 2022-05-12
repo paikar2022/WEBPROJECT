@@ -16,6 +16,23 @@ body {
     background-color: rgb(218, 230, 211);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#vase, #nijon, #kukulcan, #valtiohotelli{
+    height: 250px;
+    width: 260px;
+}
+footer{
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(113, 167, 42);
+    background-image: linear-gradient(rgb(113, 167, 42), rgb(241,225,166));
+    padding: 10px;
+    margin: 1px;
+}
 
 
 
+/* change/hide some items in the smallest display */
+@media screen and (max-width: 576px){
+    footer{display:none;     
+    }    
+}
