@@ -70,7 +70,7 @@ article {
     height: 50px;
     width: 100px;
     background-color: rgb(247, 202, 247);
-    background-image: linear-gradient(rgb(248, 110, 248), rgb(247, 202, 247));
+    background-image: linear-gradient(rgb(248, 110, 248), rgb(247, 202, 247), rgb(231, 241, 149));
     border-radius: 5px;
     font-weight: bolder;
     margin-top: 5px;

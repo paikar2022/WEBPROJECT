@@ -15,6 +15,7 @@ header{
     border: 3px solid black;
     border-radius: 5px;
     background-color: rgb(206, 231, 173);
+    background-image: linear-gradient (rgb(206, 231, 173), rgb(184, 229, 155), rgb(218, 230, 211));
     padding: 10px;
     align-items: center;
     margin: 1px;
