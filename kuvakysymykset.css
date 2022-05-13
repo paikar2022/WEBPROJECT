@@ -124,5 +124,7 @@ footer{
     h1, h2{
         font-size:medium;
     }
-
+    #abraham, #amelia, #ludvig, #marie, #nelson, #prize {
+        height: 300px; 
+    }
 }

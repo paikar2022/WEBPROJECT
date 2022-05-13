@@ -60,6 +60,11 @@ footer{
 #paikatKuvake:hover {
     border-color: rgb(4, 56, 59);
 }
+.textcolor{
+    color:blue;
+    font-weight: bold;
+}
+
 /* change/hide some items in the smallest display */
 @media screen and (max-width: 576px){
     footer{display:none;     
