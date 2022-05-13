@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Tämän sivun HTML, CSS - ja JavaScript -koodiin on otettu mallia OAMK TIK22KM Ryhmä 16 projektityöstä /M.Rekinen (c) 2022.  -->
+<!-- Tämän sivun HTML, CSS - ja JavaScript -koodiin on otettu alkuun mallia OAMK TIK22KM Ryhmä 16 projektityöstä /M.Rekinen (c) 2022.  -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -45,9 +45,6 @@
         </div>
     </nav>
     <!-- Navigation ends-->
-    <header>
-        <!-- <img src="logo tähän?" alt="header"> -->
-    </header>
     <article> 
     <div id="kysymyksetHeading">
     </div>
@@ -70,7 +67,9 @@
                 <input type="radio" name="radioAnswer" id="wrong"> Etna<br>
                 <input type="radio" name="radioAnswer" id="wrong"> St. Helens<br>
                 <input type="radio" name="radioAnswer" id="wrong"> Fagradalsfjall<br>
-                <button class="checkbutton checkbutton1" onclick="question1()">Tarkista</button><br>        
+                <!-- bootstrap button used-->
+                <button type="button" class="btn btn-primary" class="checkbutton checkbutton1" 
+                  onclick="question1()">Tarkista</button><br>
             </div>
             <div id="question2" class="hidden">
               <legend>Mammutit kehittyivät noin neljä miljoonaa vuotta sitten Afrikassa, josta ne levisivät Eurooppaan, 
@@ -79,7 +78,9 @@
               <input type="radio" name="radioAnswer" id="wrong"> Pikkunisäkkäät<br>
               <input type="radio" name="radioAnswer" id="right2"> Heinät ja sarat<br>
               <input type="radio" name="radioAnswer" id="wrong"> Puiden latvukset<br>
-              <button class="checkbutton checkbutton2" onclick="question2()">Tarkista</button><br>
+              <!-- bootstrap button used-->
+              <button type="button" class="btn btn-primary" class="checkbutton checkbutton2" 
+                  onclick="question2()">Tarkista</button><br>
             </div>        
             <div id="question3" class="hidden">
               <legend>Faaraot olivat hallitsijoita v.3100 - 3000 eaa. Minkä maan kuninkaita he olivat?</legend><br>
@@ -87,7 +88,9 @@
               <input type="radio" name="radioAnswer" id="wrong"> Argentiina<br>
               <input type="radio" name="radioAnswer" id="right3"> Egypti<br>
               <input type="radio" name="radioAnswer" id="wrong"> Japani<br>
-              <button class="checkbutton checkbutton3" onclick="question3()">Tarkista</button><br>
+              <!-- bootstrap button used-->
+              <button type="button" class="btn btn-primary" class="checkbutton checkbutton3" 
+                  onclick="question3()">Tarkista</button><br>
             </div>       
             <div id="question4" class="hidden">
               <legend>Ranskalainen Édouard de Laboulaye ja Frédéric Auguste Bartholdi suunnittelivat erään, 
@@ -96,7 +99,9 @@
               <input type="radio" name="radioAnswer" id="right4"> Vapaudenpatsas<br>
               <input type="radio" name="radioAnswer" id="wrong"> Eiffel-torni<br>
               <input type="radio" name="radioAnswer" id="wrong"> Suomenlinna<br>
-              <button class="checkbutton checkbutton4" onclick="question4()">Tarkista</button><br>
+              <!-- bootstrap button used-->
+              <button type="button" class="btn btn-primary" class="checkbutton checkbutton4" 
+                  onclick="question4()">Tarkista</button><br>
             </div>        
             <div id="question5" class="hidden">
               <legend>Luvig XIV oli Ranskan kuningas vuosina 1643 - 1715. Millä lempinimellä häntä kutsuttiin?</legend><br>
@@ -104,7 +109,9 @@
               <input type="radio" name="radioAnswer" id="wrong"> Vuoristoneuvos<br>
               <input type="radio" name="radioAnswer" id="wrong"> Kuuvaltias<br>
               <input type="radio" name="radioAnswer" id="wrong"> Palvottu<br>
-              <button class="checkbutton checkbutton5" onclick="question5()">Tarkista</button><br>
+              <!-- bootstrap button used-->
+              <button type="button" class="btn btn-primary" class="checkbutton checkbutton5" 
+                  onclick="question5()">Tarkista</button><br>
             </div>
             <!--Bootstrap cards-->
             <div class="row" id="cards">
@@ -130,7 +137,7 @@
           </div>
         </div>
       </div>
-    </article>           
+    </article>     
     <!-- Bootstrap accordion below-->
     <div class="row">
       <div class="col-md-12">
