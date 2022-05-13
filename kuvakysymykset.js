@@ -139,6 +139,14 @@ function v5(){
 
     document.getElementById("uudestaan").onclick = function(){
         feedback1.textContent = "";   
-        location.reload(); //w3schools reload the page
+        location.reload(); //w3schools: reload the page
         };
 }
+    document.getElementById("aloitusnappi").onmouseover = function() {
+        aloitusnappi.style.width = "115px";
+        aloitusnappi.style.height = "55px";
+    }
+    document.getElementById("aloitusnappi").onmouseleave = function() {
+        aloitusnappi.style.width = "100px";
+        aloitusnappi.style.height = "50px";
+    }

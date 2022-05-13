@@ -1,11 +1,18 @@
 header{
     border: 3px solid black;
     border-radius: 5px;
-    background-color: rgb(206, 231, 173);
-    background-image: linear-gradient(rgb(206, 231, 173), rgb(241,225,166));
+    background-color: rgb(45,202,194);
+    background-image: linear-gradient(rgb(213,236,235), rgb(45,202,194));
     padding: 10px;
-    align-items: center;
-    margin: 1px;
+    margin: 1px; 
+}
+#historiikki{
+    font-family: algerian;
+    font-size: 50px;
+    text-align: center;
+}
+#lisätieto{
+    text-align: center;
 }
 
 h1{
@@ -13,7 +20,7 @@ h1{
 }
 
 body {
-    background-color: rgb(218, 230, 211);
+    background-color: rgb(213,236,235);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #vase, #nijon, #kukulcan, #valtiohotelli{
@@ -23,16 +30,16 @@ body {
 footer{
     border: 3px solid black;
     border-radius: 5px;
-    background-color: rgb(113, 167, 42);
-    background-image: linear-gradient(rgb(113, 167, 42), rgb(241,225,166));
+    background-color: rgb(45,202,194);
+    background-image: linear-gradient(rgb(213,236,235), rgb(45,202,194));
     padding: 10px;
     margin: 1px;
 }
 
-
-
 /* change/hide some items in the smallest display */
 @media screen and (max-width: 576px){
+    header{display:none;     
+    }    
     footer{display:none;     
     }    
 }

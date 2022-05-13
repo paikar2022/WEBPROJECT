@@ -1,11 +1,11 @@
 /*content style*/
 #content {
     font-family:sans-serif;
-    background-color:rgb(206, 231, 173);
+    background-color:rgb(213,236,235);
 }
 /* main navi style */
 [class*="container"] {
-    background-color: rgb(231, 241, 149);
+    background-color: rgb(213,236,235);
     border: 3px solid black;
     border-radius: 5px;
     margin: 1px;
@@ -14,20 +14,27 @@
 }
 /* main header style */
 header{
-    display: flex;
     border: 3px solid black;
     border-radius: 5px;
-    background-color: rgb(206, 231, 173);
+    background-color: rgb(45,202,194);
+    background-image: linear-gradient(rgb(213,236,235), rgb(45,202,194));
     padding: 10px;
-    align-items: center;
-    margin: 1px;
-} 
-/* page header style */
+    margin: 1px; 
+}
+#historiikki{
+    font-family: algerian;
+    font-size: 50px;
+    text-align: center;
+}
+#lisätieto{
+    text-align: center;
+}
+/* article style */
 article { 
     display: flex;
     height: 150px;
-    background-color: rgb(241,225,166);
-    background-image: linear-gradient(rgb(241,225,166), rgb(113, 167, 42));
+    background-color: rgb(45,202,194);
+    background-image: linear-gradient(rgb(213,236,235), rgb(45,202,194));
     padding: 10px;
     border: black 3px solid; 
     border-radius: 5px;     
@@ -47,8 +54,8 @@ article {
     margin: 1px;
     padding: 10px;
     border: 3px black solid;
-    background-color: rgb(231, 241, 149);
-    background-image: linear-gradient(rgb(231, 241, 149), rgb(206, 231, 173));
+    background-color: rgb(45,202,194);
+    background-image: linear-gradient(rgb(213,236,235), rgb(45,202,194));
     border-radius: 5px;
     align-items: center;
 } 
@@ -61,7 +68,7 @@ article {
 .progress{ 
     display: none;
     font-weight: bold;
-    background-color: rgb(247, 202, 247);
+    background-color: rgb(213,236,235);
     margin: 10px;
 }
 /*several buttons' styles*/
@@ -69,8 +76,8 @@ article {
 #seuraava4, #seuraava5, .button, #uudestaan, #tulos {
     height: 50px;
     width: 100px;
-    background-color: rgb(247, 202, 247);
-    background-image: linear-gradient(rgb(248, 110, 248), rgb(247, 202, 247), rgb(231, 241, 149));
+    background-color: rgb(45, 131, 202);
+    background-image: linear-gradient(rgb(45, 131, 202), rgb(45,202,194));
     border-radius: 5px;
     font-weight: bolder;
     margin-top: 5px;
@@ -90,15 +97,15 @@ article {
     text-align:center;
     text-transform: uppercase;
     color: green;
-    background-color: rgb(231, 241, 149);
+    background-color: rgb(213,236,235);
 }
 /*main footer styles*/
 footer{
     display: flex;
     border: 3px solid black;
     border-radius: 5px;
-    background-color: rgb(113, 167, 42);
-    background-image: linear-gradient(rgb(113, 167, 42), rgb(241,225,166));
+    background-color: rgb(45,202,194);
+    background-image: linear-gradient(rgb(213,236,235), rgb(45,202,194));
     padding: 10px;
     margin: 1px;
 }

@@ -31,23 +31,23 @@ function question1() {
 		questionsRight++
 		//showing "Oikein!"
 		result.innerHTML= right
-		//antaa kuvan ja piilottaa kysymyksen
+		//hides the previous and gives a new question
 		document.getElementById("question1").className="hidden"
 		image1.className="visible"
-		//näyttää seuraavan kysymyksen
+		//gives a new question
 		document.getElementById("question2").className="visible"
 	} else {
-		//printtaa "Väärin!"
+		//showing "Väärin!"
 		result.innerHTML = wrong
-		//piilottaa kysymyksen
+		//hides the question
 		document.getElementById("question1").className="hidden"
-		//näyttää seuraavan kysymyksen 
+		//gives a new question 
 		document.getElementById("question2").className="visible"
 	}
-    //etenemis jutut
-	//kuinka monta kysymystä on oikein Kysymyksiä oikein ~/5
+    //progress
+	//questions answered right/questions total amount
     document.getElementById("correctAnswers").innerText = questionsRight  
-	//etenemispalkin päivitys 
+	//updating progress 
     progress.value = questionsRight
 }
 function question2(){
@@ -102,19 +102,19 @@ function question5(){
 		document.getElementById("question5").className="hidden"
 		image5.className="visible"
 		document.getElementById("bigQuestion").innerText = "Pääsit visan loppuun."
-		//näyttää "pelaa uudelleen" -napin
+		//showing try again -button
 	} else {
 		result.innerHTML = wrong
 		document.getElementById("question5").className="hidden"
 		document.getElementById("bigQuestion").innerText = "Pääsit visan loppuun."
-		//näyttää "pelaa uudelleen" -napin
+		//showing try again -button
 	}
     document.getElementById("correctAnswers").innerText = questionsRight
     progress.value = questionsRight
 
-	//uudestaan-nappi
+	//try again -button
 	document.querySelector("#uudestaan").className=""
-	//jos kaikki kysymykset oikein
+	//if all questions right
 	if (progress.value == 5) {
 		document.querySelector("#vastaukset").className="hidden"
 		document.getElementById("bigQuestion").innerText = "Hienoa! Sait kaikki oikein!"
