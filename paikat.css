@@ -42,4 +42,9 @@ footer{
     }    
     footer{display:none;     
     }    
+    #vase, #nijon, #kukulcan, #valtiohotelli{
+        height: 250px;
+        width: 260px;
+        display: none;
+    }
 }
