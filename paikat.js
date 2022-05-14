@@ -22,6 +22,7 @@ function valtionhotelliBlock() {
     document.getElementById("exploreAgain").style.display = "block";
 }
 function again(){
+    document.getElementById("valtionhotelliblock").style.display = "none";
     document.getElementById("exploreButton1").style.display = "none";
     document.getElementById("exploreAgain").style.display = "none";
     document.getElementById("vaseblock").style.display = "block";
