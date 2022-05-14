@@ -47,6 +47,20 @@ article {
     margin: 5px;
     float: left;
 }
+#ameliapic{
+    height: 250px;
+    width: 300px;
+    border: 2px solid rgb(62, 124, 206);
+    margin: 5px;
+    float: left;
+}
+#pyramidpic{
+    height: 250px;
+    width: 330px;
+    border: 2px solid rgb(62, 124, 206);
+    margin-left: 200px;
+    float: left;
+}
 /* question blocks'style */
 #abraham, #amelia, #ludvig, #marie, #nelson, #prize {
     display: none;
@@ -127,4 +141,13 @@ footer{
     #abraham, #amelia, #ludvig, #marie, #nelson, #prize {
         height: 300px; 
     }
+    #ameliapic{
+        height: 125px;
+        width: 150px;
+    }
+    #pyramidpic{
+        height: 125px;
+        width: 175px;
+        margin-left: 2px;
+     }
 }

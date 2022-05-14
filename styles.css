@@ -22,6 +22,7 @@ article{
     background-image: linear-gradient(rgb(213,236,235), rgb(45,202,194));
     padding: 10px;
     margin: 1px;
+    align-items: center;
 }
 
 footer{
@@ -32,11 +33,17 @@ footer{
     padding: 10px;
     margin: 1px;
 }
+#ohje{
+    margin-bottom: 10px;
+    text-align: center;
+}
 #kuvakysymyksetKuvake{
     grid-column: 2/3;
     border: 10px solid rgb(45, 131, 202);
     height: 200px;
     width: 200px;
+    margin-left: 50px;
+    margin-right: 100px;
 }
 #kuvakysymyksetKuvake:hover {
     border-color: rgb(3, 54, 119);
@@ -46,6 +53,7 @@ footer{
     border: 10px solid rgb(240, 140, 0);
     height: 200px;
     width: 200px;
+    margin-right: 100px;
 }
 /*used here :hover -> it's a basic selector example*/
 #tekstikysymyksetKuvake:hover {
@@ -72,4 +80,10 @@ footer{
     }    
     header{display:none;     
     } 
+    .kuvake{
+        margin: 5px;
+    }
+    #kuvakysymyksetKuvake{
+        margin-left: 5px;
+    }
 }

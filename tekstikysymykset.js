@@ -2,12 +2,12 @@
 
 let questionsRight = 0
 //answers
-let correctAnswer1 = document.getElementById("right") 
-let correctAnswer2 = document.getElementById("right2")
-let correctAnswer3 = document.getElementById("right3")
-let correctAnswer4 = document.getElementById("right4")
-let correctAnswer5 = document.getElementById("right5")
-let wrongAnswer = document.getElementById("wrong")
+let correctAnswer1 = document.getElementById("right1");
+let correctAnswer2 = document.getElementById("right2");
+let correctAnswer3 = document.getElementById("right3");
+let correctAnswer4 = document.getElementById("right4");
+let correctAnswer5 = document.getElementById("right5");
+let wrongAnswer = document.getElementsByClassName("wrong");
 //right or wrong
 let result = document.querySelector("#result")
 let right = new String("Oikein!").fontcolor("green")
@@ -101,12 +101,12 @@ function question5(){
 		result.innerHTML= right
 		document.getElementById("question5").className="hidden"
 		image5.className="visible"
-		document.getElementById("bigQuestion").innerText = "Pääsit visan loppuun."
+		document.getElementById("feedback").innerText = "Pääsit visan loppuun."
 		//showing try again -button
 	} else {
 		result.innerHTML = wrong
 		document.getElementById("question5").className="hidden"
-		document.getElementById("bigQuestion").innerText = "Pääsit visan loppuun."
+		document.getElementById("feedback").innerText = "Pääsit visan loppuun."
 		//showing try again -button
 	}
     document.getElementById("correctAnswers").innerText = questionsRight
@@ -117,7 +117,7 @@ function question5(){
 	//if all questions right
 	if (progress.value == 5) {
 		document.querySelector("#vastaukset").className="hidden"
-		document.getElementById("bigQuestion").innerText = "Hienoa! Sait kaikki oikein!"
+		document.getElementById("feedback").innerText = "Hienoa! Sait kaikki oikein!"
 		start()
         stop()
 	}

@@ -17,13 +17,19 @@ header{
 #lisätieto{
     text-align: center;
 }
-/* article{
+article{
     border: 3px solid black;
     border-radius: 10px;
     background-color: rgb(62, 124, 206);
     padding: 10px;
     margin: 1px;
-} */
+}
+.bigger{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color:blue;
+    margin-bottom: 5px;
+}
 #question1, #question2, #question3, #question4, #question5{
     background-color: rgb(45,202,194);
     background-image: linear-gradient(rgb(213,236,235), rgb(45,202,194));
