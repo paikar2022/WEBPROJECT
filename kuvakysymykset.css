@@ -3,7 +3,7 @@
     font-family:sans-serif;
     background-color:rgb(213,236,235);
 }
-/* main navi style */
+/* main navi style, here used selector */
 [class*="container"] {
     background-color: rgb(213,236,235);
     border: 3px solid black;

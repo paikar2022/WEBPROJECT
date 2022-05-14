@@ -47,6 +47,7 @@ footer{
     height: 200px;
     width: 200px;
 }
+/*used here :hover -> it's a basic selector example*/
 #tekstikysymyksetKuvake:hover {
     border-color: rgb(124, 73, 2);
 }
