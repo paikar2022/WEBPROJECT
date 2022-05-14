@@ -14,16 +14,21 @@ header{
 #lisätieto{
     text-align: center;
 }
-
-h1{
-    color: brown;
+#exploreButton1, #exploreButton2 ,#exploreButton3 ,#exploreButton4, #exploreAgain{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(45,202,194);
+    background-image: linear-gradient(rgb(45,202,194),rgb(45, 131, 202) );
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-top: 5px;
+    display: none;
 }
-
 body {
     background-color: rgb(213,236,235);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#vase, #nijon, #kukulcan, #valtiohotelli{
+#vase, #nijon, #kukulcan, #valtionhotelli{
     height: 250px;
     width: 260px;
 }
@@ -42,9 +47,14 @@ footer{
     }    
     footer{display:none;     
     }    
-    #vase, #nijon, #kukulcan, #valtiohotelli{
+    #vaseblock, #nijonblock, #kukulcanblock, #valtionhotelliblock{
+        display:none;
+    }
+    #vase, #nijon, #kukulcan, #valtionhotelli{
         height: 250px;
         width: 260px;
-        display: none;
+    }   
+    #exploreButton1 {
+        display:block;
     }
 }
