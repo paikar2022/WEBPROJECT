@@ -17,14 +17,13 @@ header {
   padding: 10px;
   margin: 1px;
 }
-
-#historiikki {
+header .sassHeadline {
+  color: purple;
   font-family: algerian;
   font-size: 100px;
   text-align: center;
 }
-
-#lisätieto {
+header #lisätieto {
   text-align: center;
 }
 
@@ -36,6 +35,11 @@ article {
   padding: 10px;
   margin: 1px;
 }
+article p {
+  border: 3px solid black;
+  font-weight: bold;
+  background-color: silver;
+}
 
 footer {
   border: 3px solid black;
@@ -44,6 +48,20 @@ footer {
   background-image: linear-gradient(rgb(213, 236, 235), rgb(45, 202, 194));
   padding: 10px;
   margin: 1px;
+}
+footer p {
+  font-weight: bold;
+  color: rgb(0, 28, 128);
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=newstyles.css.map */
