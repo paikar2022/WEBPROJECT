@@ -1,4 +1,4 @@
-// Koodin pohjassa hyödynnetty henkiön M.Rekinen osuutta TIK22KM/Ryhmä 16 projektityö 2022.
+// Koodin pohjassa otettu mallia henkiön M.Rekinen TIK22KM/Ryhmä 16 projektityö 2022.
 
 let questionsRight = 0
 //answers
@@ -10,8 +10,8 @@ let correctAnswer5 = document.getElementById("right5");
 let wrongAnswer = document.getElementsByClassName("wrong");
 //right or wrong
 let result = document.querySelector("#result")
-let right = new String("Oikein!").fontcolor("green")
-let wrong = new String("Väärin!").fontcolor("red")
+let right = new String("Oikein!").fontcolor("green");
+let wrong = new String("Väärin!").fontcolor("red");
 //progressbar 
 let progress = document.getElementById("progressbar")
 //images
