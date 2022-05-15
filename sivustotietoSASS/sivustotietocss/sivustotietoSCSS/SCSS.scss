@@ -1,5 +1,6 @@
 //variables shown in article p-elements and footer
 $background-colour:silver;
+$background-image:linear-gradient(to right, silver, rgb(252, 251, 251));
 $colour:rgb(0, 28, 128);
 
 [class*="container"] {
@@ -42,6 +43,7 @@ article{
             border: 3px solid black;
             font-weight: bold;
             background-color: $background-colour;
+            background-image: $background-image;
         }
 }
 

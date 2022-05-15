@@ -39,6 +39,7 @@ article p {
   border: 3px solid black;
   font-weight: bold;
   background-color: silver;
+  background-image: linear-gradient(to right, silver, rgb(252, 251, 251));
 }
 
 footer {
